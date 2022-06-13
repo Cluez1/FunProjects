@@ -303,14 +303,17 @@ section {
                     .js { width: 75%; }
                     .react{ width: 60%; }
                     .node{ width: 87%; }
-                    .python{ width: 70%; }
+                    .python{ width: 60%; }
                     .react{width: 70%; }
                     .express{width: 75%; }
                     .node{width: 75%; }
-                    .postman{width: 90%;}
-                    .api{width: 90%;}
-                    .rest{width: 100%;}
+                    .postman{width: 60%;}
+                    .api{width: 70%;}
+                    .rest{width: 80%;}
+                    .rCCA{ width: 90%;}
                     .mySQL{ width: 60%;}
+                    .debugging{ width: 70%;}
+                    .contPro{ width: 90%;}
                 }
             }
         }
@@ -677,18 +680,18 @@ section {
 
 //Scroll styling
 
-::-webkit-scrollbar {
-    width: 2rem
-}
-::-webkit-scrollbar-track {
-    background: var(--color-primary);
-}
-::-webkit-scrollbar {
-    background-color: var(--color-secondary);
-}
-::-webkit-scrollbar {
-   background-color: var(--color-secondary)
-}
+// ::-webkit-scrollbar {
+//     width: 2rem
+// }
+// ::-webkit-scrollbar-track {
+//     background: var(--color-primary);
+// }
+// ::-webkit-scrollbar {
+//     background-color: var(--color-secondary);
+// }
+// ::-webkit-scrollbar {
+//    background-color: var(--color-secondary)
+// }
 
 
 
