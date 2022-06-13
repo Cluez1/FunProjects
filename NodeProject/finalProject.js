@@ -3,9 +3,9 @@ const name = readlineSync.question('Greetings! May I have your name?');
 
 readlineSync.question('Hello '+ name + ', Welcome to resident evil raccoon city. Where you will risk your life to survive in the zombie apocalypse! Press Enter to begin.');
 
-const weaponBox = ['Hand Gun' ,'Shotgun', 'Sniper Rifle'];
+// const weaponBox = ['Hand Gun' ,'Shotgun', 'Sniper Rifle'];
 const undeadMobs = ['Zombie Dogs', 'Licker' , 'Zombie' , ' Tyrant'];
-const randomBox = ['MedKit', 'Security Armor', 'T-Virus Antidote'] + [weaponBox];
+const randomBox = ['MedKit', 'Security Armor', 'T-Virus Antidote'];
 
    
 
@@ -13,7 +13,7 @@ const randomBox = ['MedKit', 'Security Armor', 'T-Virus Antidote'] + [weaponBox]
 var prize = [];
 let userHealth = 50;
 const options = ['Walk', 'Exit', 'Print'];
-let pickUp = randomBox[Math.floor(Math.random() * randomBox.length + weaponBox.length)];
+let pickUp = randomBox[Math.floor(Math.random() * randomBox.length)];
 
 
 function game(){
@@ -21,7 +21,7 @@ function game(){
     const undead = undeadMobs[Math.floor(Math.random() = undeadMobs.length)];
     let undeadMobsHealth = 50;
     const undeadMobsPower = Math.floor(Math.random() * (5 - 3 + 2) + 5);
-    const weaponBox = armoredRounds[Math.floor(Math.random() * (1 - 2 + 2) + 5)];
+    // const weaponBox = armoredRounds[Math.floor(Math.random() * (1 - 2 + 2) + 5)];
    
 
     const index = readlineSync.keyInSelect(options, 'Ready to keep moving? What would you like to do?');
@@ -51,8 +51,8 @@ function game(){
                         }
                     case 'a': //Attack
                         undeadMobsHealth -= attackPower;
-                        if (weaponBox == true){
-                            console.log('you attacked ' + undead + ' with' + weaponBox + 'attack power');
+                        if (randomBox == true){
+                            console.log('you attacked ' + undead + ' with' + 'attack power');
                         }else if (weaponBox == false){
                             console.log('you attacked ' + undead + ' with' + 'attack power');
                         }
