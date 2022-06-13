@@ -29,10 +29,11 @@
     justify-content: space-between;
 }
 
-button{
-    color: #f5f6f8;
+a{
+    color: #0c0c0c;
+    font-weight: 700;
     padding: 10px 25px;
-    background: transparent;
+    background: blanchedalmond;
     border: 1px solid rgb(193, 190, 226);
     outline: none;
     cursor: pointer;
@@ -54,40 +55,40 @@ h1{
 }
 
 .side-bar {
-    width: 50px;
+    display: hidden;
+    /* width: 50px;
     height: 100vh;
-    background: linear-gradient(#00545d, #000729);
+    background: linear-gradient(#00545d, #000729); */
     position: absolute;
-    right: 0;
-    top: 0;
+    /* right: 0;
+    top: 0; */
 }
 
 .menu{
-    display: block;
+    /* display: block;
     width: 25px;
     margin: 40px auto 0;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 .social-links img, .useful-links img{
-    width: 25px;
+    display: hidden;
+    /* width: 25px;
     margin: 5px auto;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 .social-links{
-    width: 50px;
-    height: 100vh;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50);
+    display: hidden;
+    /* transform: translateY(-50); */
 }
 
 .useful-links{
-    width: 50px;
+    display: hidden;
+    /* width: 50px;
     height: 100vh;
     position: absolute;
-    bottom: 30px;
+    bottom: 30px; */
 }
 
 .bubbles{

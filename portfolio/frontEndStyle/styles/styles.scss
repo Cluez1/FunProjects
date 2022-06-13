@@ -675,4 +675,21 @@ section {
     }
 }
 
+//Scroll styling
+
+::-webkit-scrollbar {
+    width: 2rem
+}
+::-webkit-scrollbar-track {
+    background: var(--color-primary);
+}
+::-webkit-scrollbar {
+    background-color: var(--color-secondary);
+}
+::-webkit-scrollbar {
+   background-color: var(--color-secondary)
+}
+
+
+
 @import './media';
