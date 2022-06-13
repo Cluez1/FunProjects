@@ -59,3 +59,10 @@ button {
   position: relative;
   top: 25px;
 }
+
+a{
+  align-self: center;
+  font-size: xx-large;
+  background-color: aqua;
+  color: black;
+}
