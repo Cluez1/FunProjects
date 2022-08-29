@@ -1,0 +1,27 @@
+/* Home */
+#home{
+  background: url('./assets/nicecolors.jpg');
+  background-size: 100%;
+}
+
+/* Cards */
+.card{
+  transition: all 0.5 ease;
+}
+
+.card:hover{
+  cursor:pointer;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0, .15)
+}
+
+/* Footer */
+.footer{
+  background: url('./assets/nicecolors.jpg');
+  background-size: 100%;
+}
+
+/* Form */
+.form{
+  background: url('./assets/nicecolors.jpg');
+  background-size: 100%;
+}
